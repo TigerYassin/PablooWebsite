@@ -19,8 +19,62 @@
     background-repeat: no-repeat;
 }
 
-.mainSection {
-    background: #DFFA6D;
-    height: 100%;
+.baseDiv {
+    background: red;
+    height: 700px;
     width: 100%;
+    display: flex;
+}
+
+.leftSidePanel {
+    background: green;
+    height: 700px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSection {
+    background: #785DFB;
+    height: 700px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSectionLoser {
+    background: #ED2F2F;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSectionWinner {
+    background: #00992E;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textField {
+    background: #ffffff;
+    width: 35%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border-width: 0;
+    border-style: solid;
 }
