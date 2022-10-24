@@ -28,6 +28,12 @@
     border-bottom: black 3px solid;
 }
 
+.baseDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .header_image {
     max-height: 34px;
     max-width: 120px;
@@ -45,6 +51,8 @@
     background: #FFFFFF;
     height: 700px;
     width: 50%;
+
+    float: left;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -65,7 +73,7 @@
 
 .mainSectionLoser {
     background: #ED2F2F;
-    height: 100%;
+    height: 700px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -76,7 +84,7 @@
 
 .mainSectionWinner {
     background: darkgoldenrod;
-    height: 100%;
+    height: 700px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -329,7 +337,7 @@
     margin-top: 1rem;
 
     width: 302px;
-    height: 139px;
+    /*height: 139px;*/
 
     background: #E8EAFD;
     border-radius: 6px;
@@ -337,7 +345,7 @@
 
 .instruction_blurb p {
     width: 281px;
-    height: 129px;
+    /*height: 129px;*/
 
     font-family: 'Inter';
     font-style: normal;
