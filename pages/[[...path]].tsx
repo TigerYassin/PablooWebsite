@@ -1,6 +1,8 @@
 import '../lib/makeswift/register-components'
 
 import { Makeswift } from '@makeswift/runtime/next'
+// import TagManager from 'react-gtm-module'
+
 import {
   GetStaticPathsResult,
   GetStaticPropsContext,
@@ -42,9 +44,8 @@ export async function getStaticProps(
     preview: ctx.preview,
   })
 
-  if (snapshot == null) return { notFound: true }
-
-  return { props: { snapshot } }
+  if (snapshot == null) return { notFound: true, revalidate: 10 }
+  return { props: { snapshot }, revalidate: 10 }
 }
 
 export default function Page({ snapshot }: Props) {

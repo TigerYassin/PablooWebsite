@@ -20,14 +20,29 @@
 }
 
 .baseDiv {
-    background: red;
     height: 700px;
     width: 100%;
     display: flex;
+    flex: 1;
+    flex-direction: row;
+    border-bottom: black 3px solid;
+}
+
+.header_image {
+    max-height: 34px;
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
+
+.full_width_div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .leftSidePanel {
-    background: green;
+    background: #FFFFFF;
     height: 700px;
     width: 50%;
     display: flex;
@@ -60,7 +75,7 @@
 }
 
 .mainSectionWinner {
-    background: #00992E;
+    background: darkgoldenrod;
     height: 100%;
     width: 50%;
     display: flex;
@@ -77,4 +92,317 @@
     border-radius: 5px;
     border-width: 0;
     border-style: solid;
+}
+
+/* Imported from widget */
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.title a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+    text-decoration: underline;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+.description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.small_image {
+    max-width: 30px;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    width: 380px;
+    max-width: 440px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.16);
+    /*max-height: 600px;*/
+    /*overflow-y: scroll;*/
+}
+
+.nested_card {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-top: 2px solid rgba(60, 91, 255, 0.5);
+    border-radius: 3px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    width: 340px;
+    max-width: 380px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nested_card:hover {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 0px 12px 22px rgba(0, 0, 0, 0.1);
+}
+
+.nested_card img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+    /*color: #0070f3;*/
+    /*border-color: #0070f3;*/
+}
+
+.card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 32px;
+    font-family: "Inter";
+    font-weight: normal;
+}
+
+.card h3 {
+    margin: 0 0 1rem 0;
+    font-size: 16px;
+    font-family: "Inter";
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Inter";
+}
+
+.card button {
+    background-color: #3C5BFF;
+    color: #ffffff;
+    height: 40px;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 100px;
+}
+
+.card button img {
+    width: 14px;
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.row p {
+    margin-left: 1rem;
+    font-size: 14px;
+    color: #737376;
+    line-height: 1.5;
+    font-family: "Inter";
+}
+
+.row h3 {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Inter";
+    color: #000000;
+}
+
+.nested_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.nested_row_div {
+    margin-left: 1rem;
+    font-size: 14px;
+    color: #737376;
+    line-height: 1.5;
+    font-family: "Inter";
+}
+
+.nested_row img {
+    width: 14px;
+    height: 14px;
+    margin-top: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.bottom_icon {
+    width: 140px;
+}
+
+.testing {
+    opacity: 100%;
+}
+
+.header_image {
+    max-height: 34px;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    height: 1em;
+    margin-left: 0.5rem;
+}
+
+.instruction_blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .75rem;
+    gap: 5px;
+    margin-top: 1rem;
+
+    width: 302px;
+    height: 139px;
+
+    background: #E8EAFD;
+    border-radius: 6px;
+}
+
+.instruction_blurb p {
+    width: 281px;
+    height: 129px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* or 129% */
+    color: #0F2D8D;
+}
+
+.bottom_flex_row {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    width: 100%;
+    height: 38px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.bottom_flex_row p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #0F2D8D;
+
+    height: 38px;
+
+    background: #E8EAFD;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .card,
+    .footer {
+        border-color: #222;
+    }
+    .code {
+        background: #111;
+    }
+    .logo img {
+        filter: invert(1);
+    }
 }
