@@ -96,7 +96,7 @@
 .textField {
     background: #ffffff;
     width: 35%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-radius: 5px;
     border-width: 0;
     border-style: solid;
@@ -364,11 +364,10 @@
     flex-direction: row;
     align-items: center;
     gap: 8px;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 
     width: 100%;
-    height: 38px;
 
     background: #FFFFFF;
     border-radius: 6px;
