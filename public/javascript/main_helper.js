@@ -100,7 +100,7 @@ function handleMouseMove(event) {
     cursorCoordinatesArray.push({'x': event.pageX, 'y': event.pageY})
     let tempObject = document.elementFromPoint(event.pageX, event.pageY) // TODO: pass that data up
     // TODO: Can we track how long the user has been on that object?
-    console.log("this is your objcet", tempObject)
+    // console.log("this is your objcet", tempObject)
 }
 
 
