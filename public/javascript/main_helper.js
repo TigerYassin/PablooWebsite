@@ -100,7 +100,7 @@ function handleMouseMove(event) {
     cursorCoordinatesArray.push({'x': event.pageX, 'y': event.pageY})
     let tempObject = document.elementFromPoint(event.pageX, event.pageY) // TODO: pass that data up
     // TODO: Can we track how long the user has been on that object?
-    // console.log("this is your objcet", tempObject)
+    // console.log("this is your object", tempObject)
 }
 
 
@@ -108,7 +108,7 @@ function getCookie(name) {
     let cookies = document.cookie.split(';');
     for(let i=0; i < cookies.length; i++) {
         let currentCookieList = cookies[i].split("=");
-        if (name === currentCookieList[0]){
+        if (currentCookieList[0].includes(name)){
             return currentCookieList[1]
         }
     }
