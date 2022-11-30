@@ -1,0 +1,58 @@
+<meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="language" content="English">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.pabloo.com/" />
+    <meta property="og:site_name" content="Pabloo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:label1" content="Est. reading time" />
+    <meta name="twitter:data1" content="1 minute" />
+    <link rel="canonical" href="https://www.pabloo.com/" />
+    <meta name="title" content="Pabloo | Customer Conversion Tool for Business">
+    <meta name="description" content="Pabloo is a user engagement startup that uses lottery campaigns to increase user conversion. Collect coins by doing shopping and in return redeem those points.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.pabloo.com/">
+<meta property="og:title" content="Pabloo | Customer Conversion Tool for Business">
+<meta property="og:description" content="Pabloo is a user engagement startup that uses lottery campaigns to increase user conversion. Collect coins by doing shopping and in return redeem those points.">
+<meta property="og:image" content="https://s.mkswft.com/RmlsZTo3YTJjMTc2OS0zY2E0LTQwNGEtOTg4Ny1lMjM4ZjRiNzM0NWU=/pabloo_logo_circular_oo_transparent.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.pabloo.com/">
+<meta property="twitter:title" content="Pabloo | Customer Conversion Tool for Business">
+<meta property="twitter:description" content="Pabloo is a user engagement startup that uses lottery campaigns to increase user conversion. Collect coins by doing shopping and in return redeem those points.">
+<meta property="twitter:image" content="https://s.mkswft.com/RmlsZTo3YTJjMTc2OS0zY2E0LTQwNGEtOTg4Ny1lMjM4ZjRiNzM0NWU=/pabloo_logo_circular_oo_transparent.png">
+
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Page",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.pabloo.com/"
+            },
+            "headline": "Pabloo | Customer Conversion Tool for Business",
+            "description": "Pabloo is a user engagement startup that uses lottery campaigns to increase user conversion. Collect coins by doing shopping and in return redeem those points.",
+            "image": "https://s.mkswft.com/RmlsZTo3YTJjMTc2OS0zY2E0LTQwNGEtOTg4Ny1lMjM4ZjRiNzM0NWU=/pabloo_logo_circular_oo_transparent.png",  
+            "author": {
+                "@type": "Organization",
+                "name": "Pabloo"
+            },  
+            "publisher": {
+                "@type": "Organization",
+                "name": "Pabloo",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https://s.mkswft.com/RmlsZTo3YTJjMTc2OS0zY2E0LTQwNGEtOTg4Ny1lMjM4ZjRiNzM0NWU=/pabloo_logo_circular_oo_transparent.png"
+                }
+            },
+            "datePublished": "2022-11-30",
+            "dateModified": "2022-11-30"
+        }
+    </script>
