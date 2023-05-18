@@ -1,4 +1,5 @@
 import '../lib/makeswift/register-components'
+import '../lib/components/CalculatorView/calculatorView.css'
 
 import { Makeswift } from '@makeswift/runtime/next'
 // import TagManager from 'react-gtm-module'
