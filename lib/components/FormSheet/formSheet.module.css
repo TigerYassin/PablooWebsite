@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .formSheet {
     border-radius: 40%;
     /* From https://css.glass */
